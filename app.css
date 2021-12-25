@@ -1,0 +1,92 @@
+.tatris {
+    box-sizing: border-box;
+    
+}
+
+.menue{
+    position: absolute;
+    margin:10px;
+    padding: 10px;
+    background-color:rgb(228, 210, 189);
+    border: 1px solid black;
+}
+
+.startTetris{
+    /* margin-left: 30%; */
+}
+
+.wrapperTetris.hide {
+    display: none;
+}
+.main {
+    width: 320px;
+    height: 620px;
+    margin: auto 0;
+    border: 10px solid rgb(238, 198, 152);
+    font-size: 0;
+    background-color: rgb(209, 177, 245)
+}
+
+.wrapperTetris {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(238, 240, 205);
+    width: 500px;
+    border: 1px solid grey;
+    margin: 10px auto 0;
+
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    display: inline-block;
+}
+.cellinfo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.fixedCell {
+    background-color: rgb(31, 174, 218);
+}
+
+.movingCell {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+}
+
+.infoTetris {
+    width: auto;
+    padding: 10px;
+}
+
+.nextFigure {
+    height: 60px;
+    width: 120px;
+    font-size: 0;
+    margin: 10px;
+}
+
+.tetroControl {
+    padding: 0px;
+
+    margin-left: 10px;
+    text-align: center;
+    width: 300px;
+  }
+
+.tetroControl button {
+    padding: 2px;
+    margin: 2px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: 1px solid rgb(73, 73, 73); 
+   height: 50px;
+   width: 70px;
+   overflow-x:hidden;
+   font-size: 15px;
+   border-radius: 5px;
+  }
